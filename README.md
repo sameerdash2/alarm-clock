@@ -1,5 +1,7 @@
 # AlarmClock
 
+**GitHub repository**: https://github.com/sameerdash2/alarm-clock
+
 ## Class Documentation
 The AlarmClock class models the common functions of a real alarm clock. The purpose of this class is to emulate alarm clock features such as setting the time, setting an alarm, and changing the brightness of the clock. To make things easier, each AlarmClock instance starts with the system's current time, but it can be modified later just like setting a physical clock. Additionally, the class can help manage a schedule by calculating how much time is remaining until the alarm or finding out whether a certain timestamp has already passed.
 
@@ -28,4 +30,4 @@ The AlarmClock class models the common functions of a real alarm clock. The purp
 The demo program creates an AlarmClock instance and does several tasks using its methods. First, it uses the set_time method to set a new time for the alarm clock and print it. It then changes the brightness of the alarm clock using the set/get methods. Next, it sets an alarm for 8:15 AM and computes the amount of time remaining until that alarm goes off. After this, it uses the has_time_passed method to determine whether certain times of day have already passed, and also to choose a greeting message (Good morning, Good afternoon, or Good evening) based on the alarm clock's time. Finally, the program prints the alarm clock's status (current time and alarm time) using the `__str__` method.
 
 ### Instructions to run the demo program:
-First, download the file `alarm_clock.py`. Open a terminal in the same directory as that file. Then enter `python3 alarm_clock.py` to run the program. The program will print results to the screen.
+First, download the file [`alarm_clock.py`](alarm_clock.py). Open a terminal in the same directory as that file. Then enter `python3 alarm_clock.py` to run the program. The program will print results to the screen.
